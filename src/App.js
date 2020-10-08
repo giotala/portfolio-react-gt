@@ -22,9 +22,9 @@ class App extends Component {
      <div>
      <Switch>
      
-     <Route exact path="/" component={Portfolio} />
-     <Route exact path="/projects" component={Project} />
-     <Route exact path="/contacts" component={Contacts} />
+     <Route exact path="/portfolio-react-gt/" component={Portfolio} />
+     <Route exact path="/portfolio-react-gt/projects" component={Project} />
+     <Route exact path="/portfolio-react-gt/contacts" component={Contacts} />
      <Route component={NoMatch} />
      
      </Switch>
