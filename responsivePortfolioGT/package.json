@@ -1,0 +1,23 @@
+{
+  "name": "r21321",
+  "version": "1.0.0",
+  "description": "GioTalabong-porfolio This website contains the following     links         Portfolio         contacts         about me     navbar",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giotala/responsive-porfolioGT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giotala/responsive-porfolioGT/issues"
+  },
+  "homepage": "https://github.com/giotala/responsive-porfolioGT#readme",
+  "dependencies": {
+    "swup": "^2.0.11"
+  }
+}

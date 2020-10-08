@@ -1,0 +1,68 @@
+a {
+  color: rgb(73, 73, 83) !important;
+
+}
+a:hover {
+  cursor: pointer;
+  background-color: rgba(240, 248, 255, 0.596);
+  color: black !important;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+body {
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(255, 94, 0, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* NAVBAR */
+.float-right {
+  padding-left: 500px;
+}
+
+/* BODY */
+.jumbotron {
+  height: 300px;
+}
+.center {
+  position: relative;
+ justify-content: center; 
+  text-align: center;
+  font-size: 3vh;
+}
+.me {
+  position: relative;
+  font-size: 5vw;
+  color: rgb(247, 242, 242);
+  text-shadow: 2px rgba(170, 167, 167, 0.815);
+  font-family: 'Roboto', 'Montserrat', sans-serif;
+}
+.portfolioContainer {
+  padding: 100px;
+}
+.breadcrumb {
+  justify-content: center;
+  background-color: transparent !important;
+}
+/* About */
+
+
+/* projects */
+.ProjectsContainer {
+
+  background-color: white !important;
+  height: auto !important;
+  width: 150 !important;
+  border: 3px solid black !important;
+  margin-bottom: 100px !important;
+  box-shadow: 2px 2px 2px 2px inset #b1484883 !important;
+
+}
+
+.img {
+  height: 30vh !important;
+  width: 55vw !important;
+}
