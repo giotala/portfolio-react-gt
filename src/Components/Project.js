@@ -17,37 +17,38 @@ import Resume from './../image/resume.PNG'
 
 export default function Project() {
 const style = {
-    padding: '50px'
+    margin: '50px',
+    
 }
 
     return (
-        <Container className='ProjectsContainer'>
+       <div>
             <Row style={style}>
-            <Col>
+            <Col xs="auto">
                 <h4>Notepad-- Project Dos</h4>
                 <a href="http://oscarcat.herokuapp.com/"><img className="img img-thumbnail" src={notepad}/></a>
             </Col>
-            <Col>
+            <Col xs="auto">
                 <h4>Employee Manager</h4>
                 <a href="https://github.com/giotala/OOP_HW_GT"><img className="img img-thumbnail" src={employee}/></a>
             </Col>
-            <Col>
+            <Col xs="auto">
             <h4>Weather App</h4>
               <a href="https://giotala.github.io/weather-app-hw-GT/"><img className="img img-thumbnail" src={weather}/></a>
             </Col>
             {/* separate */}
             </Row>
             <Row style={style}>
-            <Col>
+            <Col xs="auto">
                 <h4>Fitness Tracker</h4>
                 <a href="https://warm-waters-69243.herokuapp.com/?id=5f6d1bc709d2890017a909bb"><img className="img img-thumbnail" src={fitness}/></a>
             </Col>
-            <Col>
+            <Col xs="auto">
                 <h4>Burger App</h4>
                 <a href="https://burger1232321.herokuapp.com/"><img className="img img-thumbnail" src={burger}/></a>
             </Col>
             
-            <Col>
+            <Col xs="auto">
             <h4>Schedule App</h4>
             <a href="https://giotala.github.io/third-party-APIs-HM-GT/"><img className="img img-thumbnail" src={scheduler}/></a>
             </Col>
@@ -69,29 +70,29 @@ const style = {
                                 <Card.Body>
                                     <Container>
                                         <Row style={style}>
-                                        <Col>
+                                        <Col xs="auto">
                                             <h4>Refactored Website</h4>
                                             <a href="https://giotala.github.io/SEO-REFACTOR-DEMO/"><img className="img-thumbnail" src={refactor}/></a>
                                         </Col>
-                                        <Col>
+                                        <Col xs="auto">
                                             <h4>First Portfolio</h4>
                                             <a href="https://giotala.github.io/prework-about-me/"><img className="img img-thumbnail" src={first_portfolio}/></a>
                                         </Col>
-                                        <Col>
+                                        <Col xs="auto">
                                             <h4>Code Quiz app Project</h4>
                                             <a href="https://giotala.github.io/CodeQuiz_HW_GT/"><img className="img img-thumbnail" src={Code_quiz_app}/></a>
                                         </Col>
                                         </Row>
                                         <Row>
-                                        <Col>
+                                        <Col xs="auto">
                                         <h4>Random PW App</h4>
                                         <a href="https://giotala.github.io/randompwgenerator/"><img className="img img-thumbnail" src={OPW_API}/></a>
                                         </Col>
-                                        <Col>
+                                        <Col xs="auto">
                                             <h4>Employee Tracker</h4>
                                             <a href="https://github.com/giotala/Employee_Tracker_GT"><img className="img img-thumbnail" src={emptrack}/></a>
                                         </Col>
-                                        <Col>
+                                        <Col xs="auto">
                                             <h4>boozercise Project Uno</h4>
                                             <a href="https://giotala.github.io/Boozercise_project-1/"><img className="img img-thumbnail" src={boozercise}/></a>
                                         </Col>
@@ -117,7 +118,7 @@ const style = {
                                 <Card.Body>
                                     <Container>
                                         <Row style={style}>
-                                        <Col>
+                                        <Col xs="auto">
                                             <img src={Resume}/>
                                         </Col>
                                     
@@ -131,6 +132,6 @@ const style = {
                         </Card>
                     </Accordion>
                 </Col>
-        </Container>
+        </div>
     )
 }

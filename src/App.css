@@ -6,8 +6,6 @@ a:hover {
   cursor: pointer;
   background-color: rgba(240, 248, 255, 0.596);
   color: black !important;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 body {
   background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
@@ -63,6 +61,15 @@ body {
 }
 
 .img {
-  height: 30vh !important;
-  width: 55vw !important;
+  justify-items: center;
+  position:  relative !important;
+  height: 250px !important;
+  width: 520px !important;
+  
+}
+.row {
+  justify-content: space-evenly !important;
+}
+.accordion {
+  margin-bottom: 30px;
 }
