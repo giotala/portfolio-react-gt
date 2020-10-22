@@ -10,7 +10,8 @@ export default function Portfolio() {
         backgroundColor: '#ffffff6e'
     }
     return (
-        <Container className='portfolioContainer'>
+        <div>
+        <Container fluid className='portfolioContainer'>
         <Row>
         <Col></Col>
         <Col sm={10} className="center" >
@@ -38,5 +39,17 @@ export default function Portfolio() {
         <Col></Col>
         </Row>
         </Container>
+        <div class="boxes">
+        <ul class="single-box">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+        </div>
     )
 }
