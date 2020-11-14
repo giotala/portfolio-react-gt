@@ -17,7 +17,7 @@ export default function Portfolio() {
         <Col sm={10} className="center" >
         <Jumbotron fluid style={portStyle}>
         
-            <h1 className='me'> <ChevronLeft> </ChevronLeft> Gio Talabong <ChevronRight /></h1>
+            <h1 className='me'> <ChevronLeft> </ChevronLeft>Gio Talabong<ChevronRight /></h1>
             <Breadcrumb >
             <Breadcrumb.Item href="https://github.com/giotala">
                 Github
@@ -25,13 +25,13 @@ export default function Portfolio() {
             <Breadcrumb.Item href="https://www.linkedin.com/in/gio-talabong-79086b103/">
                 LinkedIn
             </Breadcrumb.Item>
-            <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
+            {/* <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
                 Instagram
             </Breadcrumb.Item>
             <Breadcrumb.Item href="https://www.facebook.com/gio.talabong.1/">
             <i class="fas fa-facebook"></i>FB
                 <Modals/>
-            </Breadcrumb.Item>
+            </Breadcrumb.Item> */}
             
             </Breadcrumb>
         </Jumbotron>

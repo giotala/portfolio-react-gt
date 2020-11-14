@@ -6,7 +6,7 @@ import NavBar from './Components/NavBar';
 import Portfolio from './Components/Portfolio';
 import Project from './Components/Project';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import NoMatch from './Components/NoMatch';
+// import NoMatch from './Components/NoMatch';
 class App extends Component {
 
  render() {
@@ -25,7 +25,7 @@ class App extends Component {
      <Route exact path="/portfolio-react-gt/" component={Portfolio} />
      <Route exact path="/portfolio-react-gt/projects" component={Project} />
      <Route exact path="/portfolio-react-gt/contacts" component={Contacts} />
-     <Route component={NoMatch} />
+     <Route component={Portfolio} />
      
      </Switch>
      
