@@ -45,7 +45,7 @@ export default function Project() {
                     <img className="img img-thumbnail" src={Ecom} />
                     <div className="overlay">
                         <div className="text">
-                            <h3>Employee Manager</h3>
+                            <h3>BeanieG's Ecom</h3>
                             <br></br>
                             <a href="https://github.com/giotala/ecomProject3"> <div style={{ color: "white" }}>APP</div></a>
                             <div>|||</div>
