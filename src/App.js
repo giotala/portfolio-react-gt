@@ -20,12 +20,12 @@ class App extends Component {
     <Router>
      <NavBar />
      <div>
+     <Route exact path="/portfolio-react-gt/" component={Portfolio} />
      <Switch>
      
-     <Route exact path="/portfolio-react-gt/" component={Portfolio} />
      <Route exact path="/portfolio-react-gt/projects" component={Project} />
      <Route exact path="/portfolio-react-gt/contacts" component={Contacts} />
-     <Route component={Portfolio} />
+     {/* <Route component={Portfolio} /> */}
      
      </Switch>
      
